@@ -8,10 +8,35 @@ body {
 	margin:0;
 	padding:0;
 }
+
+a i {
+    display: inline-block;
+    background-image: url(/ch03/images/naver.png);
+    background-size: 452px 436px;
+    background-position: 0px -301px;
+    background-repeat: no-repeat;
+    width: 72px;
+    height: 14px;
+    margin: 3px 8px 0 0;
+    vertical-align: top;
+}
+
+.blind {
+	display: inline-block;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
 </style>
 </head>
 
 <body>
 	<h1>백그라운드 예제</h1>
+	<a href="/user/login">
+		<i>
+			<span class="blind">naver</span>
+		</i>
+		로그인
+	</a>
 </body>
 </html>
