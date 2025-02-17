@@ -5,3 +5,8 @@
     2. 주의: 이름 없이 export 되기 때문에 하나만 export 할 수 있다.
 
  */
+
+export default{
+    add:(a,b)=>a+b,
+    subtract: (a,b)=>a-b,
+}
